@@ -226,16 +226,16 @@
                     "description": "A unique identifier for the visitor",
                     "example": "user_32912378471284",
                     "type": "string"
-                }
+                },
+                "tags": [
+                    "Visitor"
+                ]
             },
             "required": [
                 "visitor_id",
                 "snapshots"
             ],
-            "type": "object",
-            "tags": [
-                "Visitor"
-            ]
+            "type": "object"
         }
     },
     "host": "logx.optimizely.com",
@@ -282,7 +282,7 @@
     "swagger": "2.0",
     "tags": [
         {
-            "description": "Log Endpoint",
+            "description": "Log Endpoint Dinosaurs",
             "name": "API Reference"
         },
         {
