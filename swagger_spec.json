@@ -226,10 +226,7 @@
                     "description": "A unique identifier for the visitor",
                     "example": "user_32912378471284",
                     "type": "string"
-                },
-                "tags": [
-                    "Visitor"
-                ]
+                }
             },
             "required": [
                 "visitor_id",
@@ -254,7 +251,8 @@
                         "name": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/EventBatch"
+                            "$ref": ["#/definitions/EventBatch", "#/definitions/Visitor"]
+                           
                         }
                     }
                 ],
