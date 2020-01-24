@@ -232,7 +232,10 @@
                 "visitor_id",
                 "snapshots"
             ],
-            "type": "object"
+            "type": "object",
+            "tags": [
+                "Visitor"
+            ]
         }
     },
     "host": "logx.optimizely.com",
@@ -281,6 +284,10 @@
         {
             "description": "Log Endpoint",
             "name": "API Reference"
+        },
+        {
+            "description": "Marry Poppins visited me blimey",
+            "name": "Visitor"
         }
     ]
 }
